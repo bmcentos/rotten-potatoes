@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: movies
-          image: bmiquelini/rotten-potatoes-frontend:python-v1
+          image: bmiquelini/rotten-potatoes-frontend:python-v2
           ports:
             - containerPort: 5000
           env:
